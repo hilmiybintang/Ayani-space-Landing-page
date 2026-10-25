@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f2;
+  color: #1b2a21;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 6vw;
+  background-color: #12381f;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.menu a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 40px;
+  align-items: center;
+  padding: 60px 6vw;
+  background-color: #12381f;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 44px;
+  line-height: 1.15;
+  margin: 0 0 16px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 46ch;
+  margin: 0 0 28px;
+}
+
+.hero-foto {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.tombol {
+  display: inline-block;
+  background-color: #19b34a;
+  color: #12381f;
+  padding: 12px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bagian {
+  padding: 70px 6vw;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.bagian h2 {
+  font-size: 30px;
+  margin: 0 0 6px;
+}
+
+.sub {
+  margin: 0 0 28px;
+  color: #4a5d51;
+}
+
+.grid-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.item {
+  background-color: white;
+  border-left: 5px solid #b9803f;
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+
+.item h3 {
+  margin: 4px 0;
+  font-size: 18px;
+}
+
+.kategori {
+  font-size: 13px;
+  color: #b9803f;
+  font-weight: bold;
+}
+
+.harga {
+  margin: 0;
+  font-weight: bold;
+  color: #12381f;
+}
+
+.galeri {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.galeri img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.lokasi {
+  text-align: center;
+}
+
+.lokasi p {
+  margin: 0 0 8px;
+}
+
+.aksi {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.tombol-garis {
+  background-color: transparent;
+  border: 2px solid #12381f;
+  color: #12381f;
+}
+
+footer {
+  text-align: center;
+  padding: 24px 6vw;
+  background-color: #12381f;
+  color: white;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.foto-menu {
+  width: 100%;
+  max-width: 720px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 14px;
+  border: 1px solid #d5ded8;
+}
